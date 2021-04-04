@@ -150,6 +150,12 @@
         <AppDPIAwarenessMode>PerMonitorV2</AppDPIAwarenessMode>
     </PropertyGroup>
     <ItemGroup>
+        <CppCompile Include="Methods.cpp">
+            <BuildOrder>4</BuildOrder>
+        </CppCompile>
+        <None Include="Methods.h">
+            <BuildOrder>3</BuildOrder>
+        </None>
         <CppCompile Include="Project2.cpp">
             <BuildOrder>0</BuildOrder>
         </CppCompile>
@@ -243,9 +249,9 @@
                         <Overwrite>true</Overwrite>
                     </Platform>
                 </DeployFile>
-                <DeployFile LocalName=".\Win32\Debug\Project2.tds" Configuration="Debug" Class="DebugSymbols">
-                    <Platform Name="Win32">
-                        <RemoteName>Project2.tds</RemoteName>
+                <DeployFile LocalName=".\Win64\Debug\Project2.exe" Configuration="Debug" Class="ProjectOutput">
+                    <Platform Name="Win64">
+                        <RemoteName>Project2.exe</RemoteName>
                         <Overwrite>true</Overwrite>
                     </Platform>
                 </DeployFile>

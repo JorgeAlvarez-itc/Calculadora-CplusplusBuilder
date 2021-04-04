@@ -1,0 +1,20 @@
+#pragma once
+
+double suma(double, double);
+
+double resta(double, double);
+
+double mult(double, double);
+
+double div(double, double);
+
+double sqrt(double);
+
+double percent (double);
+
+void cls();
+
+void del();
+
+void equals(double, double);
+

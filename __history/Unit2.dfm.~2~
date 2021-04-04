@@ -43,7 +43,6 @@ object Form2: TForm2
     Font.Style = []
     ParentFont = False
     TabOrder = 1
-    OnClick = Btn_dotClick
   end
   object Btn_1: TButton
     Left = 8
@@ -73,7 +72,6 @@ object Form2: TForm2
     Font.Style = []
     ParentFont = False
     TabOrder = 3
-    OnClick = Btn_4Click
   end
   object Btn_7: TButton
     Left = 8
@@ -88,7 +86,6 @@ object Form2: TForm2
     Font.Style = []
     ParentFont = False
     TabOrder = 4
-    OnClick = Btn_7Click
   end
   object Btn_sqrt: TButton
     Left = 8
@@ -117,7 +114,6 @@ object Form2: TForm2
     Font.Style = []
     ParentFont = False
     TabOrder = 6
-    OnClick = Btn_0Click
   end
   object Btn_2: TButton
     Left = 79
@@ -132,7 +128,6 @@ object Form2: TForm2
     Font.Style = []
     ParentFont = False
     TabOrder = 7
-    OnClick = Btn_2Click
   end
   object Btn_5: TButton
     Left = 79
@@ -147,7 +142,6 @@ object Form2: TForm2
     Font.Style = []
     ParentFont = False
     TabOrder = 8
-    OnClick = Btn_5Click
   end
   object Btn_8: TButton
     Left = 79
@@ -162,7 +156,6 @@ object Form2: TForm2
     Font.Style = []
     ParentFont = False
     TabOrder = 9
-    OnClick = Btn_8Click
   end
   object Btn_percent: TButton
     Left = 79
@@ -205,7 +198,6 @@ object Form2: TForm2
     Font.Style = []
     ParentFont = False
     TabOrder = 12
-    OnClick = Btn_3Click
   end
   object Btn_6: TButton
     Left = 150
@@ -220,7 +212,6 @@ object Form2: TForm2
     Font.Style = []
     ParentFont = False
     TabOrder = 13
-    OnClick = Btn_6Click
   end
   object Btn_9: TButton
     Left = 150
@@ -235,7 +226,6 @@ object Form2: TForm2
     Font.Style = []
     ParentFont = False
     TabOrder = 14
-    OnClick = Btn_9Click
   end
   object Btn_cls: TButton
     Left = 150
