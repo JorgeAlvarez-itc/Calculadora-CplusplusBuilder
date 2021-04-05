@@ -1,10 +1,10 @@
 object Form2: TForm2
   Left = 0
   Top = 0
-  Caption = 'Form2'
-  ClientHeight = 299
-  ClientWidth = 635
-  Color = clBtnFace
+  Caption = 'Calculadora'
+  ClientHeight = 494
+  ClientWidth = 413
+  Color = clPurple
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
   Font.Height = -11
@@ -13,4 +13,288 @@ object Form2: TForm2
   OldCreateOrder = False
   PixelsPerInch = 96
   TextHeight = 13
+  object Txt_Res: TEdit
+    Left = 51
+    Top = 8
+    Width = 313
+    Height = 31
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -21
+    Font.Name = 'Times New Roman'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 0
+    Text = '0'
+  end
+  object Btn_7: TButton
+    Left = 51
+    Top = 136
+    Width = 73
+    Height = 73
+    Caption = '7'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 1
+    OnClick = Btn_7Click
+  end
+  object Btn_8: TButton
+    Left = 130
+    Top = 136
+    Width = 73
+    Height = 73
+    Caption = '8'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 2
+    OnClick = Btn_8Click
+  end
+  object Btn_1: TButton
+    Left = 51
+    Top = 294
+    Width = 73
+    Height = 73
+    Caption = '1'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 3
+    OnClick = Btn_1Click
+  end
+  object Btn_5: TButton
+    Left = 130
+    Top = 215
+    Width = 73
+    Height = 73
+    Caption = '5'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 4
+    OnClick = Btn_5Click
+  end
+  object Btn_6: TButton
+    Left = 209
+    Top = 215
+    Width = 73
+    Height = 73
+    Caption = '6'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 5
+    OnClick = Btn_6Click
+  end
+  object Btn_4: TButton
+    Left = 51
+    Top = 215
+    Width = 73
+    Height = 73
+    Caption = '4'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 6
+    OnClick = Btn_4Click
+  end
+  object Btn_9: TButton
+    Left = 209
+    Top = 136
+    Width = 73
+    Height = 73
+    Caption = '9'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 7
+    OnClick = Btn_9Click
+  end
+  object Btn_3: TButton
+    Left = 209
+    Top = 294
+    Width = 73
+    Height = 73
+    Caption = '3'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 8
+    OnClick = Btn_3Click
+  end
+  object Btn_2: TButton
+    Left = 130
+    Top = 294
+    Width = 73
+    Height = 73
+    Caption = '2'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 9
+    OnClick = Btn_2Click
+  end
+  object Btn_point: TButton
+    Left = 130
+    Top = 373
+    Width = 73
+    Height = 73
+    Caption = ','
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 10
+    OnClick = Btn_pointClick
+  end
+  object Btn_Igual: TButton
+    Left = 209
+    Top = 373
+    Width = 73
+    Height = 73
+    Caption = '='
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 11
+    OnClick = Btn_IgualClick
+  end
+  object Btn_0: TButton
+    Left = 51
+    Top = 373
+    Width = 73
+    Height = 73
+    Caption = '0'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 12
+    OnClick = Btn_0Click
+  end
+  object Btn_Suma: TButton
+    Left = 288
+    Top = 373
+    Width = 73
+    Height = 73
+    Caption = '+'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 13
+    OnClick = Btn_SumaClick
+  end
+  object Btn_Division: TButton
+    Left = 288
+    Top = 294
+    Width = 73
+    Height = 73
+    Caption = #247
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 14
+    OnClick = Btn_DivisionClick
+  end
+  object Btn_Multiplicacion: TButton
+    Left = 288
+    Top = 215
+    Width = 73
+    Height = 73
+    Caption = '*'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 15
+    OnClick = Btn_MultiplicacionClick
+  end
+  object Btn_Resta: TButton
+    Left = 288
+    Top = 136
+    Width = 73
+    Height = 73
+    Caption = '-'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 16
+    OnClick = Btn_RestaClick
+  end
+  object Btn_Apagar: TButton
+    Left = 130
+    Top = 72
+    Width = 231
+    Height = 58
+    Caption = 'C'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 17
+    OnClick = Btn_ApagarClick
+  end
+  object Btn_Raiz: TButton
+    Left = 51
+    Top = 72
+    Width = 73
+    Height = 58
+    Caption = #8730
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 18
+    OnClick = Btn_RaizClick
+  end
 end
