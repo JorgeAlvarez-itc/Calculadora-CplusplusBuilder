@@ -9,6 +9,10 @@ En las diversas branches se encuentra el trabajo personal de los integrantes del
 Integrantes:
 
 Aguacaliente Silis Jorge Eduardo
+
 Alvarez Mendoza Jorge Iván
+
 León Palma Iván
+
 Montero Rodríguez José Manuel
+
