@@ -43,6 +43,15 @@ __published:	// IDE-managed Components
 	void __fastcall Btn_9Click(TObject *Sender);
 	void __fastcall Btn_0Click(TObject *Sender);
 	void __fastcall Btn_dotClick(TObject *Sender);
+	void __fastcall Btn_minusClick(TObject *Sender);
+	void __fastcall Btn_multClick(TObject *Sender);
+	void __fastcall Btn_divClick(TObject *Sender);
+	void __fastcall Btn_clsClick(TObject *Sender);
+	void __fastcall Btn_delClick(TObject *Sender);
+	void __fastcall Btn_addClick(TObject *Sender);
+	void __fastcall Btn_equalsClick(TObject *Sender);
+	void __fastcall Btn_percentClick(TObject *Sender);
+	void __fastcall Btn_sqrtClick(TObject *Sender);
 private:	// User declarations
 public:		// User declarations
 	__fastcall TForm2(TComponent* Owner);

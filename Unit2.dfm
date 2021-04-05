@@ -2,8 +2,8 @@ object Form2: TForm2
   Left = 0
   Top = 0
   Caption = 'Form2'
-  ClientHeight = 399
-  ClientWidth = 300
+  ClientHeight = 395
+  ClientWidth = 298
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -95,7 +95,7 @@ object Form2: TForm2
     Top = 63
     Width = 65
     Height = 42
-    Caption = 'sqrt'
+    Caption = #8730
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
     Font.Height = -15
@@ -103,6 +103,7 @@ object Form2: TForm2
     Font.Style = []
     ParentFont = False
     TabOrder = 5
+    OnClick = Btn_sqrtClick
   end
   object Btn_0: TButton
     Left = 79
@@ -177,6 +178,7 @@ object Form2: TForm2
     Font.Style = []
     ParentFont = False
     TabOrder = 10
+    OnClick = Btn_percentClick
   end
   object Btn_equals: TButton
     Left = 150
@@ -191,6 +193,7 @@ object Form2: TForm2
     Font.Style = []
     ParentFont = False
     TabOrder = 11
+    OnClick = Btn_equalsClick
   end
   object Btn_3: TButton
     Left = 150
@@ -250,6 +253,7 @@ object Form2: TForm2
     Font.Style = []
     ParentFont = False
     TabOrder = 15
+    OnClick = Btn_clsClick
   end
   object Btn_add: TButton
     Left = 221
@@ -264,6 +268,7 @@ object Form2: TForm2
     Font.Style = []
     ParentFont = False
     TabOrder = 16
+    OnClick = Btn_addClick
   end
   object Btn_minus: TButton
     Left = 221
@@ -278,6 +283,7 @@ object Form2: TForm2
     Font.Style = []
     ParentFont = False
     TabOrder = 17
+    OnClick = Btn_minusClick
   end
   object Btn_mult: TButton
     Left = 221
@@ -292,6 +298,7 @@ object Form2: TForm2
     Font.Style = []
     ParentFont = False
     TabOrder = 18
+    OnClick = Btn_multClick
   end
   object Btn_div: TButton
     Left = 221
@@ -306,6 +313,7 @@ object Form2: TForm2
     Font.Style = []
     ParentFont = False
     TabOrder = 19
+    OnClick = Btn_divClick
   end
   object Btn_del: TButton
     Left = 221
@@ -320,5 +328,6 @@ object Form2: TForm2
     Font.Style = []
     ParentFont = False
     TabOrder = 20
+    OnClick = Btn_delClick
   end
 end

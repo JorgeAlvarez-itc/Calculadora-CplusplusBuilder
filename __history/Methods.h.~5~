@@ -1,0 +1,24 @@
+#pragma once
+
+#include <cmath>
+#include <iostream>
+
+double suma(double, double);
+
+double resta(double, double);
+
+double mult(double, double);
+
+double div(double, double);
+
+double sqRoot(double);
+
+double percentage(double);
+
+double equals(double, double, int);
+
+void cls();
+
+void del();
+
+bool checkDot(std::wstring);

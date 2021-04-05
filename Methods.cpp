@@ -1,4 +1,4 @@
-#include <cmath>
+
 
 #include "Methods.h"
 
@@ -23,16 +23,27 @@ double div(double a, double b)
 	return a/b;
 }
 
-void equals(double a, double b, int op)
+double equals(std::deque<double> var, int op)
 {
+	double a = var.front();
+	var.pop_front();
+	double b = var.front();
+	var.pop_front();
+
+	double result;
 	switch(op)
 	{
-		case 1: break;
-		case 2: break;
-		case 3: break;
-		case 4: break;
+		case 1: result = suma(a,b);
+				break;
+		case 2: result = resta(a,b);
+				break;
+		case 3: result = mult(a,b);
+				break;
+		case 4: result = div(a,b);
+				break;
+		default: return a;
 	}
-	//return a+b;
+	return result;
 }
 
 double sqRoot(double a)
@@ -40,19 +51,36 @@ double sqRoot(double a)
 	return sqrt(a);
 }
 
-double percentage(double a)
+double percentage(std::deque<double> var, int op)
 {
-	return a * 0.01;
+    double a = var.front();
+	var.pop_front();
+	double b = var.front();
+	var.pop_front();
+
+	double c = b * 0.01 * a;
+
+	double result;
+	switch(op)
+	{
+		case 1: result = suma(a,c);
+				break;
+		case 2: result = resta(a,c);
+				break;
+		case 3: result = c;
+				break;
+		case 4: result = div(a, b * 0.01);
+				break;
+		default: return a;
+	}
+	return result;
 }
 
-void cls()
+bool checkDot(std::wstring s)
 {
-
-
-}
-
-void del()
-{
-
-
+	int a = s.find('.');
+	if (a == s.npos) {
+		 return true;
+	}
+	else return false;
 }

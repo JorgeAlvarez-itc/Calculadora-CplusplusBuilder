@@ -1,0 +1,30 @@
+#pragma once
+
+#include <cmath>
+#include <string>
+#include <sstream>
+#include <deque>
+
+double suma(double, double);
+
+double resta(double, double);
+
+double mult(double, double);
+
+double div(double, double);
+
+double sqRoot(double);
+
+double percentage(std::deque<double>, int);
+
+double equals(std::deque<double>, int);
+
+void cls();
+
+void del();
+
+bool checkDot(std::wstring);
+
+void restartText();
+
+void restartOps();
