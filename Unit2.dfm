@@ -2,9 +2,9 @@ object Form2: TForm2
   Left = 0
   Top = 0
   Caption = 'Form2'
-  ClientHeight = 299
-  ClientWidth = 635
-  Color = clBtnFace
+  ClientHeight = 393
+  ClientWidth = 294
+  Color = clSkyBlue
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
   Font.Height = -11
@@ -13,4 +13,321 @@ object Form2: TForm2
   OldCreateOrder = False
   PixelsPerInch = 96
   TextHeight = 13
+  object Screen: TEdit
+    Left = 8
+    Top = 8
+    Width = 281
+    Height = 45
+    Alignment = taRightJustify
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -31
+    Font.Name = 'Consolas'
+    Font.Style = []
+    MaxLength = 16
+    NumbersOnly = True
+    ParentFont = False
+    TabOrder = 0
+    Text = '0'
+  end
+  object Btn_dot: TButton
+    Left = 8
+    Top = 324
+    Width = 65
+    Height = 65
+    Caption = '.'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -15
+    Font.Name = 'Consolas'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 1
+    OnClick = Btn_dotClick
+  end
+  object Btn_1: TButton
+    Left = 8
+    Top = 253
+    Width = 65
+    Height = 65
+    Caption = '1'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -15
+    Font.Name = 'Consolas'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 2
+    OnClick = Btn_1Click
+  end
+  object Btn_4: TButton
+    Left = 8
+    Top = 182
+    Width = 65
+    Height = 65
+    Caption = '4'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -15
+    Font.Name = 'Consolas'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 3
+    OnClick = Btn_4Click
+  end
+  object Btn_7: TButton
+    Left = 8
+    Top = 111
+    Width = 65
+    Height = 65
+    Caption = '7'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -15
+    Font.Name = 'Consolas'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 4
+    OnClick = Btn_7Click
+  end
+  object Btn_sqrt: TButton
+    Left = 8
+    Top = 63
+    Width = 65
+    Height = 42
+    Caption = #8730
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -15
+    Font.Name = 'Consolas'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 5
+    OnClick = Btn_sqrtClick
+  end
+  object Btn_0: TButton
+    Left = 79
+    Top = 324
+    Width = 65
+    Height = 65
+    Caption = '0'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -15
+    Font.Name = 'Consolas'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 6
+    OnClick = Btn_0Click
+  end
+  object Btn_2: TButton
+    Left = 79
+    Top = 253
+    Width = 65
+    Height = 65
+    Caption = '2'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -15
+    Font.Name = 'Consolas'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 7
+    OnClick = Btn_2Click
+  end
+  object Btn_5: TButton
+    Left = 79
+    Top = 182
+    Width = 65
+    Height = 65
+    Caption = '5'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -15
+    Font.Name = 'Consolas'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 8
+    OnClick = Btn_5Click
+  end
+  object Btn_8: TButton
+    Left = 79
+    Top = 111
+    Width = 65
+    Height = 65
+    Caption = '8'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -15
+    Font.Name = 'Consolas'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 9
+    OnClick = Btn_8Click
+  end
+  object Btn_percent: TButton
+    Left = 79
+    Top = 63
+    Width = 65
+    Height = 42
+    Caption = '%'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -15
+    Font.Name = 'Consolas'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 10
+    OnClick = Btn_percentClick
+  end
+  object Btn_equals: TButton
+    Left = 150
+    Top = 324
+    Width = 65
+    Height = 65
+    Caption = '='
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -15
+    Font.Name = 'Consolas'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 11
+    OnClick = Btn_equalsClick
+  end
+  object Btn_3: TButton
+    Left = 150
+    Top = 253
+    Width = 65
+    Height = 65
+    Caption = '3'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -15
+    Font.Name = 'Consolas'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 12
+    OnClick = Btn_3Click
+  end
+  object Btn_6: TButton
+    Left = 150
+    Top = 182
+    Width = 65
+    Height = 65
+    Caption = '6'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -15
+    Font.Name = 'Consolas'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 13
+    OnClick = Btn_6Click
+  end
+  object Btn_9: TButton
+    Left = 150
+    Top = 111
+    Width = 65
+    Height = 65
+    Caption = '9'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -15
+    Font.Name = 'Consolas'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 14
+    OnClick = Btn_9Click
+  end
+  object Btn_cls: TButton
+    Left = 150
+    Top = 63
+    Width = 65
+    Height = 42
+    Caption = 'clear'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -15
+    Font.Name = 'Consolas'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 15
+    OnClick = Btn_clsClick
+  end
+  object Btn_add: TButton
+    Left = 221
+    Top = 324
+    Width = 65
+    Height = 65
+    Caption = '+'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -15
+    Font.Name = 'Consolas'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 16
+    OnClick = Btn_addClick
+  end
+  object Btn_minus: TButton
+    Left = 221
+    Top = 253
+    Width = 65
+    Height = 65
+    Caption = '-'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -15
+    Font.Name = 'Consolas'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 17
+    OnClick = Btn_minusClick
+  end
+  object Btn_mult: TButton
+    Left = 221
+    Top = 182
+    Width = 65
+    Height = 65
+    Caption = '*'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -15
+    Font.Name = 'Consolas'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 18
+    OnClick = Btn_multClick
+  end
+  object Btn_div: TButton
+    Left = 221
+    Top = 111
+    Width = 65
+    Height = 65
+    Caption = '/'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -15
+    Font.Name = 'Consolas'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 19
+    OnClick = Btn_divClick
+  end
+  object Btn_del: TButton
+    Left = 221
+    Top = 63
+    Width = 65
+    Height = 42
+    Caption = 'delete'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -15
+    Font.Name = 'Consolas'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 20
+    OnClick = Btn_delClick
+  end
 end
